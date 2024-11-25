@@ -10,13 +10,13 @@ So: I assumed that there's a firm with 1000 employees, and every person in the u
 
 Starting with 1000 normally-distributed employees and running the routine for 100 years (the employees live until they're fired, of course), we get this as the mean performance of the 900 surviving workers: 
 
-![Plot of mean surviving worker productivity over the first glorious century](fig0.png)
+![Plot of mean surviving worker productivity over the first glorious century](Figure_0.png)
 
 ... which is roughly what I'd expect, the mean rises very sharply at first, but with diminishing returns over time. 
 
 What do the surviving employees look like after 100 years, apart from grizzled and slightly terrified of what happens when they *do* eventually leave? Here's a (slightly funky) CDF plot with a log-scale on the y-axis[^3]:
 
-![Reverse log-scale CDF of employee productivity](fig1.png)
+![Reverse log-scale CDF of employee productivity](Figure_1.png)
 
 If the resulting distribution is Pareto, this line should be approximately straight. I'd call that plausible, at least! Incidentally, 20% of the employees are below the blue line. 80% of the performance scale is to the right of the orange line, which also fits with the folk-wisdom Pareto distribution.
 
