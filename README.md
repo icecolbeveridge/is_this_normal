@@ -23,3 +23,11 @@ If the resulting distribution is Pareto, this line should be approximately strai
 [^3]: You would usually expect a CDF to start from the lowest values and move to the highest. Doing it backwards is what gives a good log fit.
 
 To finish: I note that I haven't found (or looked for) any evidence that the distribution isn't lognormal -- I think I'd expect a curve in that case. 
+
+## The code
+
+... should run like:
+
+    python main.py
+
+This is hacked-together code for my own interest. You are welcome to play with it. Let me know if it breaks, but I can't promise to fix it.  
